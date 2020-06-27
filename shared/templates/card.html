@@ -1,0 +1,12 @@
+<div class="card {{__css}}">
+    <img class="card-img-top" src="{{thumbnailUrl}}" />
+    <div class="card-body">
+        <h6 class="card-title">{{title}}</h6>
+    </div>
+    {{#author}}
+    <div class="card-footer d-flex" style="padding:.1rem">
+        <span style="background-image: url({{authorPhotoUrl}})" class="mn-pic"></span>
+        <span class="text-muted">{{author}}</span>
+    </div>
+    {{/author}}
+</div>
